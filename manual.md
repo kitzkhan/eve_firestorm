@@ -71,8 +71,34 @@ Initial Draw (Base Draw): The active player draws one card from the deck corresp
 Example (Frontier Frigate): If the player has 1 Utility Module, 1 Core Systems module and 2 Weapon Modules, they draw 1 Utility Card and 2 Weapon Cards, plus 1 card for the Core System (total 4 cards for the base setup above).
 
 ---
+## 5. Turn Flow: Firestorm Game Mechanics
+The game proceeds in turns, following these four structured phases:
 
-## 5. Glossary
+Phase 1: **Regeneration Phase** (Start of Turn)
+  The active player's ship gains Energy (EP) and Shield points according to its printed Regeneration rate.
+  
+  Note: EP cannot exceed the ship's maximum Power Storage. Shield points cannot exceed the ship's maximum Shield Array value.
+
+Phase 2: **Draw Phase** (Replenishing Hand)
+
+  The active player selects one single Slot Category to Activate for the turn (e.g., Weapons Bays).
+  
+  Card Draw: The player draws additional cards from the Activated Deck until the number of cards in their hand from that specific Deck equals the number of fitted Modules in that slot type plus one (+1).
+  
+  Example (Frontier Frigate with 2 Weapons Modules): The player activates the Weapons Deck. The maximum number of Weapons Cards they can hold in their hand is 2+1=3. If they currently have 1 Weapons Card remaining, they draw 3−1=2 additional cards.
+  
+  Maximum Play Limit: For the Action Phase, the player may play a maximum of only the number of fitted Modules (in this case, 2 Weapons Cards) from the cards drawn/held from the Activated Deck.
+
+Phase 3: **Action Phase** (Playing Cards)
+  The active player plays Action Cards and Filler Cards from their current hand by paying the required EP Cost for each card.
+  
+  Cards played are immediately resolved (effects, damage, etc., are applied).
+  
+  Crucial Rule: Any cards remaining in the player's hand at the end of this phase are kept for the next turn.
+
+
+
+## 6. Glossary
 
 - **Deck Building**: The process of selecting modules and generating decks associated with each slot category.
 - **Module Slot**: A space on the ship where a module is installed, determining the type of action cards available.
@@ -80,7 +106,7 @@ Example (Frontier Frigate): If the player has 1 Utility Module, 1 Core Systems m
 
 ---
 
-## 6. TODO
+## 7. TODO
 
 - Define concrete examples of modules and the types of action cards they generate
 - Establish rules for starting a match and how decks are used
