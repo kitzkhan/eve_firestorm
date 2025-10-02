@@ -39,8 +39,36 @@ Each slot category allows installation of specific modules, directly influencing
 3. **Generate Decks**  
    The installed modules in each slot generate a set of action cards, resulting in four distinct decks (one for each slot category).
 
-4. **Personalization & Strategy**  
-   The created decks are used throughout the game, each with unique roles and effects based on the modules chosen and the ship’s configuration.
+    A. Deck Structure and Visuals
+    Specialized Decks: Each player begins the game with four distinct Decks generated as a result of the Modules chosen during ship construction.
+    
+    Deck Identity (Color Coding): Each Deck corresponds to a slot category and is color-coded for quick identification:
+    
+    Weapons Deck: Red Cards (Aggression/Damage)
+    
+    Defense Deck: Blue Cards (Protection/Repair)
+    
+    Utility Deck: Yellow Cards (Control/E-War)
+    
+    Core Systems Deck: Grey Cards (Support/Passive)
+    
+    B. Filler Card Mechanics (Acquire Target/Reload)
+    To simulate weapon cadence, certain slow or heavy modules generate Filler Cards (like "Acquire Target" or "Reload").
+    
+    Function: A Filler Card has an EP cost (e.g., 5 EP) but a minimal or zero immediate effect (e.g., "Discard this card").
+    
+    Purpose: Their primary role is to consume EP and occupy a space in the hand, forcing the player to spend a turn or resources to clear their hand to allow for a larger draw next turn.
+    
+    Reload Example: A Filler Card like "Reload Missiles" might have a small effect, such as, "Cost: 10 EP. Effect: Place 1 Missile Munitions Token in your Hangar."
+
+4. **Game Setup (Start of Match)**
+Module Verification: Both players verify the opposing ship's Modules (Module Cards are placed in the ship's slots) and Deck composition.
+
+Deck Shuffle: Each of the four Decks is shuffled individually.
+
+Initial Draw (Base Draw): The active player draws one card from the deck corresponding to each installed Module.
+
+Example (Frontier Frigate): If the player has 1 Utility Module, 1 Core Systems module and 2 Weapon Modules, they draw 1 Utility Card and 2 Weapon Cards, plus 1 card for the Core System (total 4 cards for the base setup above).
 
 ---
 
