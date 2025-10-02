@@ -44,13 +44,13 @@ Each slot category allows installation of specific modules, directly influencing
     
     Deck Identity (Color Coding): Each Deck corresponds to a slot category and is color-coded for quick identification:
     
-    Weapons Deck: Red Cards (Aggression/Damage)
+    **Weapons Deck**: Red Cards (Aggression/Damage)
     
-    Defense Deck: Blue Cards (Protection/Repair)
+    **Defense Deck**: Blue Cards (Protection/Repair)
     
-    Utility Deck: Yellow Cards (Control/E-War)
+    **Utility Deck**: Yellow Cards (Control/E-War)
     
-    Core Systems Deck: Grey Cards (Support/Passive)
+    **Core Systems Deck**: Grey Cards (Support/Passive)
     
     B. Filler Card Mechanics (Acquire Target/Reload)
     To simulate weapon cadence, certain slow or heavy modules generate Filler Cards (like "Acquire Target" or "Reload").
