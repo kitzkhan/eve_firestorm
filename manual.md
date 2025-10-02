@@ -75,26 +75,23 @@ Example (Frontier Frigate): If the player has 1 Utility Module, 1 Core Systems m
 The game proceeds in turns, following these four structured phases:
 
 Phase 1: **Regeneration Phase** (Start of Turn)
-  The active player's ship gains Energy (EP) and Shield points according to its printed Regeneration rate.
-  
+  The active player's ship gains Energy (EP) and Shield points according to its printed Regeneration rate. 
   Note: EP cannot exceed the ship's maximum Power Storage. Shield points cannot exceed the ship's maximum Shield Array value.
 
 Phase 2: **Draw Phase** (Replenishing Hand)
 
-  The active player selects one single Slot Category to Activate for the turn (e.g., Weapons Bays).
-  
+  The active player selects one single Slot Category to Activate for the turn (e.g., Weapons Bays).  
   Card Draw: The player draws additional cards from the Activated Deck until the number of cards in their hand from that specific Deck equals the number of fitted Modules in that slot type plus one (+1).
-  
   Example (Frontier Frigate with 2 Weapons Modules): The player activates the Weapons Deck. The maximum number of Weapons Cards they can hold in their hand is 2+1=3. If they currently have 1 Weapons Card remaining, they draw 3−1=2 additional cards.
-  
   Maximum Play Limit: For the Action Phase, the player may play a maximum of only the number of fitted Modules (in this case, 2 Weapons Cards) from the cards drawn/held from the Activated Deck.
 
 Phase 3: **Action Phase** (Playing Cards)
   The active player plays Action Cards and Filler Cards from their current hand by paying the required EP Cost for each card.
-  
   Cards played are immediately resolved (effects, damage, etc., are applied).
-  
   Crucial Rule: Any cards remaining in the player's hand at the end of this phase are kept for the next turn.
+Phase 4: **Cleanup Phase** (End of Turn)
+  Resolve any card effects that trigger "at the end of the turn."
+  The turn ends, and play passes to the opposing player.
 
 
 
