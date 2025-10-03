@@ -89,6 +89,7 @@ Phase 3: **Action Phase** (Playing Cards)
   The active player plays Action Cards and Filler Cards from their current hand by paying the required EP Cost for each card.
   Cards played are immediately resolved (effects, damage, etc., are applied).
   Crucial Rule: Any cards remaining in the player's hand at the end of this phase are kept for the next turn.
+  
 Phase 4: **Cleanup Phase** (End of Turn)
   Resolve any card effects that trigger "at the end of the turn."
   The turn ends, and play passes to the opposing player.
