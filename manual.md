@@ -89,14 +89,6 @@ The active player's ship gains **Energy (EP)** and **Shield** points according t
 
 ---
 
-That is an excellent decision. Simplifying the math will make combat much faster and more enjoyable without losing the strategic depth.
-
-We will replace all complex multiplication with simple **absolute value modifiers ($\mathbf{+2}$ or $\mathbf{-2}$)**.
-
-Here is the revised **Section 6 (Combat Mechanics)** in English, integrating the simplified resistance rules.
-
----
-
 ## 6. Combat Mechanics (Simplified Resistance)
 
 ### 6.1. Accuracy and Evasion
