@@ -158,11 +158,11 @@ Of course. I will translate the full combat turn example into English, ensuring 
 
 ---
 
-## Full Combat Turn Example: Applying New Rules
+## 7 Full Combat Turn Example: Applying New Rules
 
 This scenario simulates a complete **Action Phase** for Player 1, including hand management and a detailed attack resolution using the simplified mechanics.
 
-## 1. Initial State
+## 7.1 Initial State
 
 **Attacking Ship (Player 1): Frontier Frigate Line**
 * **Key Stats:** Speed: 2. Target Signature: **-1** (Small Ship). Energy (EP) Remaining: 50.
@@ -176,7 +176,7 @@ This scenario simulates a complete **Action Phase** for Player 1, including hand
 
 ---
 
-## 2. The Action Phase (Player 1)
+## 7.2 The Action Phase (Player 1)
 
 Player 1 has activated their **Weapons Deck** and has drawn their maximum limit of $2 + 1 = 3$ cards. Player 1 chooses to play two cards (the maximum allowed by their 2 **Weapons Bays**).
 
@@ -190,7 +190,7 @@ Player 1 has activated their **Weapons Deck** and has drawn their maximum limit 
 
 ---
 
-## 3. Combat Sequence (Attack Resolution)
+## 7.3 Combat Sequence (Attack Resolution)
 
 ### Step A: Accuracy Check (Hit Chance)
 
@@ -227,7 +227,7 @@ The Net Base Damage (3) is directed at the Defender's **Armor (Plating)**.
 * **Verdict:** Glancing Hit.
 * **Critical Bonus:** Not applied (The **+5 Damage** bonus applies only on a Critical Hit).
 
-## 4. Final Damage Applied
+## 7.4 Final Damage Applied
 
 The Defending Ship takes a total of **5 Damage**, which is subtracted from its **Armor** value.
 
@@ -238,7 +238,7 @@ This turn successfully demonstrated how the player must spend EP to manage their
 
 ---
 
-## 7. Glossary
+## 8. Glossary
 
 * **Deck Building**: The process of selecting modules and generating decks associated with each slot category.
 * **Module Slot**: A space on the ship where a module is installed, determining the type of action cards available.
@@ -246,7 +246,7 @@ This turn successfully demonstrated how the player must spend EP to manage their
 
 ---
 
-## 8. Development To-Do
+## 9. Development To-Do
 
 * Define concrete examples of modules and the types of action cards they generate.
 * Create ship templates with unique slots and abilities.
