@@ -89,7 +89,15 @@ The active player's ship gains **Energy (EP)** and **Shield** points according t
 
 ---
 
-## 6. Combat Mechanics
+That is an excellent decision. Simplifying the math will make combat much faster and more enjoyable without losing the strategic depth.
+
+We will replace all complex multiplication with simple **absolute value modifiers ($\mathbf{+2}$ or $\mathbf{-2}$)**.
+
+Here is the revised **Section 6 (Combat Mechanics)** in English, integrating the simplified resistance rules.
+
+---
+
+## 6. Combat Mechanics (Simplified Resistance)
 
 ### 6.1. Accuracy and Evasion
 
@@ -111,9 +119,9 @@ $$\text{Roll} (\text{Attack Score}) \geq \text{Roll} (\text{Defense Evasion})$$
 
 | Verdict | Condition | Damage Multiplier |
 | :--- | :--- | :--- |
-| **Critical Hit** | Attack Score $\boldsymbol{\ge}$ Defense Evasion $\boldsymbol{+ 2}$ | $\times 1.5$ (Round up) |
+| **Critical Hit** | Attack Score $\boldsymbol{\ge}$ Defense Evasion $\boldsymbol{+ 2}$ | $\times 1.5$ (**Round Up**) |
 | **Successful Hit** | Attack Score $\boldsymbol{>}$ Defense Evasion | $\times 1$ |
-| **Glancing Hit** | Attack Score $\boldsymbol{=}$ Defense Evasion | $\times 0.5$ (Round down) |
+| **Glancing Hit** | Attack Score $\boldsymbol{=}$ Defense Evasion | $\times 0.5$ (**Round Down**) |
 | **Miss** | Attack Score $\boldsymbol{<}$ Defense Evasion | $\times 0$ |
 
 ### 6.2. Damage Application
@@ -127,18 +135,33 @@ Damage is applied based on the card's **Impact Timing**:
 
 #### Variable Damage Formula
 
-$$\text{Damage Applied} = (\text{Damage Base} + \text{Roll}(\text{Damage Dice})) \times \text{Damage Multiplier}$$
+Damage calculation is performed in two simple steps:
 
-#### Damage Types and Resistances
+1.  **Base Damage:** Calculate the damage total using the Hit Type Multiplier (e.g., Critical Hit: $\times 1.5$):
+    $$\text{Damage Base} = (\text{Damage Base Value} + \text{Roll}(\text{Damage Dice})) \times \text{Multiplier}$$
+2.  **Final Damage (Resistance Check):** Apply the absolute modifier based on the layer hit.
 
-Damage is applied to the top defensive layer (**Shields** $\rightarrow$ **Armor** $\rightarrow$ **Hull**) and is modified by the layer's resistance profile.
+#### Damage Types and Absolute Resistance
 
-| Damage Type | Primary Effect | Shields | Armor | Hull |
+Damage is applied to the top defensive layer (**Shields** $\rightarrow$ **Armor** $\rightarrow$ **Hull**). If the layer hit is Vulnerable or Resistant to the damage type, a simple $\mathbf{+2}$ or $\mathbf{-2}$ is applied to the calculated Base Damage.
+
+| Layer Hit | Kinetic | Energy | Explosive | Disruptor |
 | :--- | :--- | :--- | :--- | :--- |
-| **Kinetic** | Physical impact. | Resistance ($\times 0.75$) | **Vulnerability ($\times 1.25$)** | Standard ($\times 1$) |
-| **Energy** | Directed energy. | **Vulnerability ($\times 1.25$)** | Resistance ($\times 0.75$) | Standard ($\times 1$) |
-| **Explosive**| Area-of-effect. | Standard ($\times 1$) | Standard ($\times 1$) | **Vulnerability ($\times 1.25$)** |
-| **Disruptor**| System damage. | Standard ($\times 1$) | Standard ($\times 1$) | Resistance ($\times 0.75$) |
+| **Shields** | Resistance ($\mathbf{-2}$) | **Vulnerability ($\mathbf{+2}$)** | Neutral ($\mathbf{0}$) | Neutral ($\mathbf{0}$) |
+| **Armor** | **Vulnerability ($\mathbf{+2}$)** | Resistance ($\mathbf{-2}$) | Neutral ($\mathbf{0}$) | Neutral ($\mathbf{0}$) |
+| **Hull** | Neutral ($\mathbf{0}$) | Neutral ($\mathbf{0}$) | **Vulnerability ($\mathbf{+2}$)** | Resistance ($\mathbf{-2}$) |
+
+***
+
+### Example: Simplified Damage Calculation
+
+**Scenario:** The Frontier Frigate (No Shields) is hit by a **Successful Hit** carrying **10 Base Damage** of type **Kinetic**.
+
+1.  **Base Damage:** $10$ (Since it was a Successful Hit, Multiplier is $\times 1$).
+2.  **Layer Hit:** Damage proceeds to **Armor** (Plating).
+3.  **Resistance Check:** Armor is **Vulnerable** to Kinetic ($\mathbf{+2}$).
+4.  **Final Damage Applied:** $10 + 2 = \mathbf{12 \text{ Damage}}$.
+
 
 ---
 
