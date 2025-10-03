@@ -3,7 +3,7 @@
 ## 1. Introduction
 
 Firestorm is a competitive card game where each player customizes and equips a unique starship, using creativity to build strategies and tailored decks. The game offers a dynamic deck-building experience, where your choice of modules and deck composition determines your play style and the evolution of every battle.
----
+
 ## 2. Game Components
 
 - **Module Cards**: Special cards that can be installed on the ship, defining the abilities and resources available to the player.
@@ -27,7 +27,7 @@ Each ship features 4 thematic categories of module slots, shaping the player’s
   Support modules (Power Units, System Processors) providing passive bonuses and synergies, enhancing the overall performance and efficiency of the ship.
 
 Each slot category allows installation of specific modules, directly influencing the types of action cards generated for the deck and the strategic approach available to the player.
----
+
 ## 4. Deck Building & Game Setup
 
 1. **Choose Your Ship**  
