@@ -154,6 +154,87 @@ Damage is applied to the top defensive layer (**Shields** $\rightarrow$ **Armor*
 3.  **Resistance Check:** Armor is **Vulnerable** to Kinetic ($\mathbf{+2}$).
 4.  **Final Damage Applied:** $10 + 2 = \mathbf{12 \text{ Damage}}$.
 
+Of course. I will translate the full combat turn example into English, ensuring we correctly account for **both** cards played ("Projectile Burst" and "Acquire Target") and applying the streamlined rules for **Accuracy, Evasion, and Absolute Resistance ($\pm 2$)**.
+
+---
+
+## Full Combat Turn Example: Applying New Rules
+
+This scenario simulates a complete **Action Phase** for Player 1, including hand management and a detailed attack resolution using the simplified mechanics.
+
+## 1. Initial State
+
+**Attacking Ship (Player 1): Frontier Frigate Line**
+* **Key Stats:** Speed: 2. Target Signature: **-1** (Small Ship). Energy (EP) Remaining: 50.
+* **Modules Equipped:** 2 Weapons Bays, 1 Utility Rail, 1 Core System.
+* **Cards Played:** **Two** Weapons Cards ("Projectile Burst" and "Positioning Shot" - the filler card).
+    * **"Projectile Burst" Card:** Damage Type: **Kinetic**. EP Cost: 3. Accuracy Factor: +3. Damage Base: 4. Damage Dice: 1D6.
+
+**Defending Ship (Player 2): Hypothetical Frigate**
+* **Key Stats:** Speed: 1. Target Signature: -1.
+* **Defense:** Has **Armor (Plating)**, No Shields.
+
+---
+
+## 2. The Action Phase (Player 1)
+
+Player 1 has activated their **Weapons Deck** and has drawn their maximum limit of $2 + 1 = 3$ cards. Player 1 chooses to play two cards (the maximum allowed by their 2 **Weapons Bays**).
+
+1.  **Action 1 (Filler Card):** Player 1 plays **"Positioning Shot"** (our new filler card from the slow weapon).
+    * **Cost:** 3 EP. New EP: $50 - 3 = 47$ EP.
+    * **Effect:** The card is placed in the **Graveyard**, successfully clearing a hand slot for the next turn's draw.
+
+2.  **Action 2 (Attack Card):** Player 1 plays **"Projectile Burst"**.
+    * **Cost:** 3 EP. New EP: $47 - 3 = 44$ EP.
+    * **Resolution:** Combat sequence begins.
+
+---
+
+## 3. Combat Sequence (Attack Resolution)
+
+### Step A: Accuracy Check (Hit Chance)
+
+| Calculation | Attacker (P1) | Defender (P2) |
+| :--- | :--- | :--- |
+| **1D6 Roll** | Rolls **4** | Rolls **5** |
+| **Accuracy / Speed Modifiers** | +3 (Accuracy Factor) | +1 (P2 Speed) |
+| **Target Signature Modifier** | -1 (P2's Target Signature) | 0 (N/A) |
+| **Final Score** | $4 + 3 + (-1) = \mathbf{6}$ | $5 + 1 = \mathbf{6}$ |
+
+* **Verdict:** Attack Score (6) $\boldsymbol{=}$ Evasion Score (6).
+* **Result:** **Glancing Hit**. Applies Damage Multiplier $\times 0.5$ (**Round Down**).
+
+### Step B: Base Damage Calculation
+
+1.  **Damage Dice Roll (1D6):** Rolls **3**.
+2.  **Bonus Effect Check:** The Accuracy Roll was **4** (not 6), so the **+3 Damage** bonus is **not applied**.
+3.  **Gross Base Damage:** $4 (\text{Base}) + 3 (\text{Roll}) = \mathbf{7 \text{ Damage}}$.
+4.  **Apply Glancing Hit Multiplier ($\times 0.5$):**
+    * $7 \times 0.5 = 3.5$.
+    * **Net Base Damage:** Rounded down to **3**.
+
+### Step C: Resistance Check (Absolute Modifier)
+
+The Net Base Damage (3) is directed at the Defender's **Armor (Plating)**.
+
+1.  **Layer Hit:** Armor.
+2.  **Damage Type:** Kinetic.
+3.  **Resistance Profile:** Armor is **Vulnerable** to Kinetic damage. Applies modifier $\mathbf{+2}$.
+4.  **Total Final Damage:** $3 + 2 = \mathbf{5 \text{ Damage}}$.
+
+### Step D: Critical Hit Check
+
+* **Verdict:** Glancing Hit.
+* **Critical Bonus:** Not applied (The **+5 Damage** bonus applies only on a Critical Hit).
+
+## 4. Final Damage Applied
+
+The Defending Ship takes a total of **5 Damage**, which is subtracted from its **Armor** value.
+
+---
+This turn successfully demonstrated how the player must spend EP to manage their hand and how the simplified resistance rules are applied for fast, tactical damage resolution.
+
+
 
 ---
 
