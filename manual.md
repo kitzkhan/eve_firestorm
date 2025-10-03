@@ -162,7 +162,7 @@ Of course. I will translate the full combat turn example into English, ensuring 
 
 This scenario simulates a complete **Action Phase** for Player 1, including hand management and a detailed attack resolution using the simplified mechanics.
 
-## 7.1 Initial State
+### 7.1 Initial State
 
 **Attacking Ship (Player 1): Frontier Frigate Line**
 * **Key Stats:** Speed: 2. Target Signature: **-1** (Small Ship). Energy (EP) Remaining: 50.
@@ -176,7 +176,7 @@ This scenario simulates a complete **Action Phase** for Player 1, including hand
 
 ---
 
-## 7.2 The Action Phase (Player 1)
+### 7.2 The Action Phase (Player 1)
 
 Player 1 has activated their **Weapons Deck** and has drawn their maximum limit of $2 + 1 = 3$ cards. Player 1 chooses to play two cards (the maximum allowed by their 2 **Weapons Bays**).
 
@@ -190,9 +190,9 @@ Player 1 has activated their **Weapons Deck** and has drawn their maximum limit 
 
 ---
 
-## 7.3 Combat Sequence (Attack Resolution)
+### 7.3 Combat Sequence (Attack Resolution)
 
-### Step A: Accuracy Check (Hit Chance)
+#### Step A: Accuracy Check (Hit Chance)
 
 | Calculation | Attacker (P1) | Defender (P2) |
 | :--- | :--- | :--- |
@@ -204,7 +204,7 @@ Player 1 has activated their **Weapons Deck** and has drawn their maximum limit 
 * **Verdict:** Attack Score (6) $\boldsymbol{=}$ Evasion Score (6).
 * **Result:** **Glancing Hit**. Applies Damage Multiplier $\times 0.5$ (**Round Down**).
 
-### Step B: Base Damage Calculation
+#### Step B: Base Damage Calculation
 
 1.  **Damage Dice Roll (1D6):** Rolls **3**.
 2.  **Bonus Effect Check:** The Accuracy Roll was **4** (not 6), so the **+3 Damage** bonus is **not applied**.
@@ -213,7 +213,7 @@ Player 1 has activated their **Weapons Deck** and has drawn their maximum limit 
     * $7 \times 0.5 = 3.5$.
     * **Net Base Damage:** Rounded down to **3**.
 
-### Step C: Resistance Check (Absolute Modifier)
+#### Step C: Resistance Check (Absolute Modifier)
 
 The Net Base Damage (3) is directed at the Defender's **Armor (Plating)**.
 
@@ -222,12 +222,12 @@ The Net Base Damage (3) is directed at the Defender's **Armor (Plating)**.
 3.  **Resistance Profile:** Armor is **Vulnerable** to Kinetic damage. Applies modifier $\mathbf{+2}$.
 4.  **Total Final Damage:** $3 + 2 = \mathbf{5 \text{ Damage}}$.
 
-### Step D: Critical Hit Check
+#### Step D: Critical Hit Check
 
 * **Verdict:** Glancing Hit.
 * **Critical Bonus:** Not applied (The **+5 Damage** bonus applies only on a Critical Hit).
 
-## 7.4 Final Damage Applied
+### 7.4 Final Damage Applied
 
 The Defending Ship takes a total of **5 Damage**, which is subtracted from its **Armor** value.
 
