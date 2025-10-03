@@ -154,7 +154,6 @@ Damage is applied to the top defensive layer (**Shields** $\rightarrow$ **Armor*
 3.  **Resistance Check:** Armor is **Vulnerable** to Kinetic ($\mathbf{+2}$).
 4.  **Final Damage Applied:** $10 + 2 = \mathbf{12 \text{ Damage}}$.
 
-Of course. I will translate the full combat turn example into English, ensuring we correctly account for **both** cards played ("Projectile Burst" and "Acquire Target") and applying the streamlined rules for **Accuracy, Evasion, and Absolute Resistance ($\pm 2$)**.
 
 ---
 
