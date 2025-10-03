@@ -111,7 +111,7 @@ $$\text{Roll} (\text{Attack Score}) \geq \text{Roll} (\text{Defense Evasion})$$
 
 | Verdict | Condition | Damage Multiplier |
 | :--- | :--- | :--- |
-| **Critical Hit** | Attack Score $\boldsymbol{\ge}$ Defense Evasion $\boldsymbol{+ 2}$ | $\times 1.5$ (**Round Up**) |
+| **Critical Hit** | Attack Score $\boldsymbol{\ge}$ Defense Evasion $\boldsymbol{+ 2}$ | $\+5$ (**Round Up**) |
 | **Successful Hit** | Attack Score $\boldsymbol{>}$ Defense Evasion | $\times 1$ |
 | **Glancing Hit** | Attack Score $\boldsymbol{=}$ Defense Evasion | $\times 0.5$ (**Round Down**) |
 | **Miss** | Attack Score $\boldsymbol{<}$ Defense Evasion | $\times 0$ |
