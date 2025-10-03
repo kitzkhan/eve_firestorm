@@ -95,8 +95,179 @@ Phase 4: **Cleanup Phase** (End of Turn)
   The turn ends, and play passes to the opposing player.
 
 
+The combat mechanics look very solid! Integrating **Damage Types** is the next logical step to ensure modules and defenses have meaningful strategic trade-offs, making the deck-building choices crucial.
 
-## 6. Glossary
+I will define four distinct damage types and then outline how the ship's defensive layers (**Shield, Armor, Hull**) interact with them, which will influence module design.
+
+---
+
+This detailed breakdown looks great! Translating these mechanics into clear English and integrating the new concepts will refine the **Firestorm** combat system beautifully.
+
+Here is the revised structure, incorporating **Hull Size**, clearer **Impact Timing**, and adjusted damage mechanics.
+
+---
+### 6. Combat
+
+## 1. Revised Core Combat Mechanics
+
+We will introduce **Target Signature** (Hull Size) and finalize the **Impact Timing** rules.
+
+### A. Hull Size: Target Signature
+
+The size of the ship impacts both the attacker's accuracy and the defender's evasion.
+
+* **Small Ships (Frigate Class):** Have a **Target Signature** of **-1**. This penalty is applied to the **Attacker's Accuracy Roll**, making the Frigate harder to hit.
+* **Large Ships (Cruiser/Battleship Class):** Will have a **Target Signature** of **+1** or **+2**, making them easier targets.
+
+### B. Mechanics: Accuracy and Evasion
+
+Accuracy is now determined by the attack card's **Accuracy Factor** and the ship's **Target Signature**. Weapon size will be factored into the card's base **Accuracy Factor**.
+
+$$\text{Roll} (\text{Attack Score}) \geq \text{Roll} (\text{Defense Evasion})$$
+
+1.  **Attack Score:** Attacker rolls **1D6** $\boldsymbol{+}$ Card's **Accuracy Factor** $\boldsymbol{+}$ Defender's **Target Signature**.
+2.  **Defense Evasion:** Defender rolls **1D6** $\boldsymbol{+}$ Defender's **Speed** value.
+3.  **Verdict:**
+    * **Critical Hit:** Attack Score $\boldsymbol{\ge}$ Defense Evasion $\boldsymbol{+ 2}$.
+    * **Successful Hit:** Attack Score $\boldsymbol{>}$ Defense Evasion.
+    * **Glancing Hit:** Attack Score $\boldsymbol{=}$ Defense Evasion. **Damage is halved** (rounded down).
+    * **Miss:** Attack Score $\boldsymbol{<}$ Defense Evasion. **Damage is zero.**
+
+### C. Mechanics: Impact Timing
+
+Damage application is now determined by the **Impact Timing** value on the card.
+
+* **Instant:** Damage is applied immediately in the current **Action Phase**. (Fast weapons like cannons).
+* **Next Turn:** Damage is applied at the start of the **Cleanup Phase** of the attacker's *next* turn. (Slow ordnance like missiles/torpedoes).
+    * **Tracking Token:** When a 'Next Turn' card is played, it is placed face-up in a designated **Pending Damage Zone** on the Ship Template, and a **Tracking Token** is placed on it. It remains there until the damage is resolved.
+
+### D. Mechanics: Variable Damage
+
+Damage calculation is now finalized, integrating the hit type:
+
+$$\text{Damage Applied} = (\text{Damage Base} + \text{Roll}(\text{Damage Dice})) \times \text{Damage Multiplier}$$
+
+| Hit Type | Damage Multiplier |
+| :--- | :--- |
+| **Critical Hit** | $\boldsymbol{\times 1.5}$ (Round up) |
+| **Successful Hit** | $\times 1$ |
+| **Glancing Hit** | $\times 0.5$ (Round down) |
+| **Miss** | $\times 0$ |
+
+---
+
+## 2. Updated Example: "Projectile Burst" Attack
+
+We will apply the new mechanics to the **Projectile Burst Cannon** and adjust its bonus effect to a damage increase. (Since the **Frontier Frigate** is a Frigate, its **Target Signature** is **-1**).
+
+### Card: "Projectile Burst" (Action Card)
+
+| Attribute | Value | Note |
+| :--- | :--- | :--- |
+| **Color/Deck** | **Red** (Weapons Deck) | |
+| **EP Cost** | 3 EP | |
+| **Accuracy Factor** | **+3** | Adjusted for small, high-accuracy weapon. |
+| **Damage Base** | 4 | |
+| **Damage Dice** | **1D6** | |
+| **Impact Timing** | **Instant** | Damage applies now. |
+| **Bonus Effect** | If the **1D6** Accuracy Roll is a **6**, add $\boldsymbol{+3}$ to the total calculated damage. |
+
+### Detailed Attack Resolution Example
+
+**Scenario:**
+* **Attacker (P1):** Frontier Frigate (Speed 2, Target Signature -1). Plays "Projectile Burst."
+* **Defender (P2):** Hypothetical Frigate (Speed 1, Target Signature -1).
+
+#### 1. Attack Score Calculation:
+
+* **Attacker Roll (1D6):** Rolls **4**.
+* **Score:** $4 (\text{Roll}) + 3 (\text{Accuracy Factor}) + (-1) (\text{Defender's Signature}) = \mathbf{6}$.
+
+#### 2. Evasion Score Calculation:
+
+* **Defender Roll (1D6):** Rolls **5**.
+* **Score:** $5 (\text{Roll}) + 1 (\text{Defender's Speed}) = \mathbf{6}$.
+
+#### 3. Verdict:
+
+* Attack Score ($\mathbf{6}$) $\boldsymbol{=}$ Defense Evasion ($\mathbf{6}$).
+* **Result:** **Glancing Hit**. Damage is halved.
+
+#### 4. Damage Calculation:
+
+* **Damage Dice Roll (1D6):** Rolls **3**.
+* **Base Damage:** $4 (\text{Base}) + 3 (\text{Roll}) = 7$.
+* **Damage Multiplier:** $\times 0.5$ (Glancing Hit).
+* **Total Damage:** $7 \times 0.5 = 3.5$. Rounded down to $\mathbf{3}$.
+
+This new framework is robust, highly tactical, and integrates all the core concepts (EP, Filler, Accuracy, Hull Size, Speed, and Dice Rolls) into every single attack action.
+
+What part of this combat model would you like to refine next?
+
+### 7. Applying Damage
+## 1. Introducing Damage Types
+
+We will use four core damage types, each designed to excel against a specific defensive layer or to carry a unique side effect.
+
+| Damage Type | Primary Effect / Description | Best Against |
+| :--- | :--- | :--- |
+| **Kinetic** | Standard physical impact damage (projectiles, cannons). High damage; often blocked by shields. | **Armor** (Penetrates Shields poorly) |
+| **Energy** | Directed energy (lasers, beams). Excels at overloading energy systems. | **Shields** (Minimal effect on Armor/Hull) |
+| **Explosive** | Area-of-effect damage (missiles, torpedoes). High splash damage. | **Hull** (Often bypasses some Armor) |
+| **Disruptor** | Electronic/System damage. Low direct damage, high utility effects. | **Systems/EP** (Causes system failures) |
+
+---
+
+## 2. Damage Resistance Mechanics
+
+Each layer of the ship's defense (**Shield, Armor, Hull**) will now have a **Vulnerability** and a **Resistance** factor to these damage types. This is represented by a multiplier.
+
+* **Standard Rule:** If a ship has a specific defensive layer (e.g., Shield), damage is applied to that layer first.
+* **Vulnerability ($\times 1.25$):** Multiplies the total damage of that specific type by $1.25$ (rounded up).
+* **Resistance ($\times 0.75$):** Multiplies the total damage of that specific type by $0.75$ (rounded down).
+
+### Defensive Layer Profile
+
+| Layer | Kinetic | Energy | Explosive | Disruptor |
+| :--- | :--- | :--- | :--- | :--- |
+| **Shields** (If present) | Resistance ($\times 0.75$) | **Vulnerability ($\times 1.25$)** | Standard ($\times 1$) | Standard ($\times 1$) |
+| **Armor** (Plating) | **Vulnerability ($\times 1.25$)** | Resistance ($\times 0.75$) | Standard ($\times 1$) | Standard ($\times 1$) |
+| **Hull** (Structure) | Standard ($\times 1$) | Standard ($\times 1$) | **Vulnerability ($\times 1.25$)** | Resistance ($\times 0.75$) |
+
+**Example Application:**
+The **Frontier Frigate** (which has **no Shields**) is hit by **10** points of **Kinetic Damage**.
+1.  Damage goes to **Armor** (Plating).
+2.  Armor is **Vulnerable** to Kinetic ($\times 1.25$).
+3.  Final Damage: $10 \times 1.25 = 12.5$. Rounded up to **13 Damage**.
+
+---
+
+## 3. Module Integration (Revisiting an Example)
+
+The **Damage Type** must now be included on the action cards. We will update the **Projectile Burst Cannon** example.
+
+### Updated Card: "Projectile Burst" (Action Card)
+
+| Attribute | Value | Note |
+| :--- | :--- | :--- |
+| **Damage Type** | **Kinetic** | Applies Kinetic Resistance/Vulnerability. |
+| **Accuracy Factor** | $\mathbf{+3}$ | |
+| **Damage Base** | 4 | |
+| **Damage Dice** | **1D6** | |
+| **Impact Timing** | **Instant** | |
+| **Bonus Effect** | If the **1D6** Accuracy Roll is a 6, add $\boldsymbol{+3}$ to the total calculated damage. |
+
+### Module Defenses (Defense Conduits)
+
+Defense modules will grant specific bonuses or resistances that **stack** with the base ship defense. Since the Frontier Frigate has **0 Defense Conduits**, it cannot gain these bonuses, making it highly dependent on its base **Armor**. Other ship templates (like the Sentinel) could mount modules that specifically grant $\times 0.5$ resistance against **Explosive** damage, for example, compensating for the Hull's vulnerability.
+
+This system forces players to diversify their weapon decks and ensures that mounting modules (or lacking them, in the Frigate's case) directly dictates the ship's tactical weaknesses.
+
+Does this system of damage types and resistances meet your expectations for strategic depth?
+
+
+
+## 8. Glossary
 
 - **Deck Building**: The process of selecting modules and generating decks associated with each slot category.
 - **Module Slot**: A space on the ship where a module is installed, determining the type of action cards available.
@@ -104,7 +275,7 @@ Phase 4: **Cleanup Phase** (End of Turn)
 
 ---
 
-## 7. TODO
+## 9. TODO
 
 - Define concrete examples of modules and the types of action cards they generate
 - Establish rules for starting a match and how decks are used
