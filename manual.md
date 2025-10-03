@@ -95,16 +95,6 @@ Phase 4: **Cleanup Phase** (End of Turn)
   The turn ends, and play passes to the opposing player.
 
 
-The combat mechanics look very solid! Integrating **Damage Types** is the next logical step to ensure modules and defenses have meaningful strategic trade-offs, making the deck-building choices crucial.
-
-I will define four distinct damage types and then outline how the ship's defensive layers (**Shield, Armor, Hull**) interact with them, which will influence module design.
-
----
-
-This detailed breakdown looks great! Translating these mechanics into clear English and integrating the new concepts will refine the **Firestorm** combat system beautifully.
-
-Here is the revised structure, incorporating **Hull Size**, clearer **Impact Timing**, and adjusted damage mechanics.
-
 ---
 ### 6. Combat
 
