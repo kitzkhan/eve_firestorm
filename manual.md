@@ -210,7 +210,7 @@ This scenario simulates a complete **Action Phase** for Player 1, including hand
 * **Key Stats:** Speed: 2. Target Signature: **-1** (Small Ship). Energy (EP) Remaining: 50.
 * **Modules Equipped:** 2 Weapons Bays, 1 Utility Rail, 1 Core System.
 * **Cards Played:** **Two** Weapons Cards ("Projectile Burst" and "Positioning Shot" - the filler card).
-    * **"Projectile Burst" Card:** Damage Type: **Kinetic**. EP Cost: 3. Complexity Factor: 0  Damage Base: 4. Damage Dice: 1D6. Bonus Effect                                                             add +3DMG if Damage Dice Roll =6
+    * **"Projectile Burst" Card:** Damage Type: **Kinetic**. EP Cost: 3. Complexity Factor: 0  Damage Base: 4. Damage Dice: 1D6. Bonus Effect                                                             add +3DMG if Accuracy Roll =6
 * **Module Accuracy Factor:** +3
   
 **Defending Ship (Player 2): Hypothetical Frigate**
@@ -252,7 +252,8 @@ Player 1 has activated their **Weapons Deck** and has drawn their maximum limit 
 1.  **Damage Dice Roll (1D6):** Rolls **3**.
 2.  **Bonus Effect Check:** The Accuracy Roll was **4** (not 6), so the **+3 Damage** bonus is **not applied**.
 3.  **Gross Base Damage:** $4 (\text{Base}) + 3 (\text{Roll}) = \mathbf{7 \text{ Damage}}$.
-4.  **Apply Glancing Hit Multiplier ($\times 0.5$):**
+4.  **Apply Glancing Hit Multiplier ($\times 0.5$):** / **Critical Hit Check**
+    **Verdict:** Glancing Hit.
     * $7 \times 0.5 = 3.5$.
     * **Net Base Damage:** Rounded down to **3**.
 
@@ -265,10 +266,7 @@ The Net Base Damage (3) is directed at the Defender's **Armor (Plating)**.
 3.  **Resistance Profile:** Armor is **Vulnerable** to Kinetic damage. Applies modifier $\mathbf{+2}$.
 4.  **Total Final Damage:** $3 + 2 = \mathbf{5 \text{ Damage}}$.
 
-#### Step D: Critical Hit Check
 
-* **Verdict:** Glancing Hit.
-* **Critical Bonus:** Not applied (The **+5 Damage** bonus applies only on a Critical Hit).
 
 ### 7.4 Final Damage Applied
 
