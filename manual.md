@@ -147,7 +147,7 @@ $$\text{Roll} (\text{Attack Score}) \geq \text{Roll} (\text{Defense Evasion})$$
 
 #### Impact Timing
 
-Damage is applied based on the card's **Impact Timing**:
+Damage is applied based on the module's **Impact Timing**:
 
 * **Instant:** Damage is applied immediately in the current **Action Phase**.
 * **Next Turn:** Damage is applied at the start of the attacker's **Cleanup Phase** of the *next* turn. The card is placed in the **Pending Damage Zone** with a **Tracking Token**.
