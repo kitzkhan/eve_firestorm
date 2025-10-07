@@ -56,7 +56,7 @@ Modules are defined by both their resource cost (paid once during setup) and the
 | **Credit Cost** | Cost to purchase and install the Module. | Paid once during the initial setup/fitting phase. |
 | **PG Cost** | Power Grid requirement. | Must be met by the ship's available PG storage. |
 | **CPU Cost** | Processing Unit requirement. | Must be met by the ship's available CPU capacity. |
-| **Inherent Damage Type** | Fixed or standard damage type. | Used for **Fixed Damage Modules** (e.g., Laser). |
+| **Inherent Damage Type** | Fixed or based on ammo damage type. | Used for **Fixed Damage Modules** (e.g., Laser) or taken from ammo token |
 | **Initial Ammo Supply** | Tokens included with purchase. | **Multi-Phase Modules** typically include only the base **1x Kinetic Token**. |
 
 ---
