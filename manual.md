@@ -116,7 +116,7 @@ The active player's ship gains **Energy (EP)** and **Shield** points according t
 
 ---
 
-## 6. Combat Mechanics (Simplified Resistance)
+## 6. Combat Mechanics
 
 ### 6.1. Accuracy and Evasion
 
@@ -133,7 +133,7 @@ The ship's size influences the difficulty of hitting it:
 
 $$\text{Roll} (\text{Attack Score}) \geq \text{Roll} (\text{Defense Evasion})$$
 
-1.  **Attack Score:** Attacker rolls **1D6** $\boldsymbol{+}$ Card's **Accuracy Factor** $\boldsymbol{+}$ Defender's **Target Signature**.
+1.  **Attack Score:** Attacker rolls **1D6** $\boldsymbol{+}$ Module **Accuracy Factor** $\boldsymbol{+}$ Card's **Complexity Factor** $\boldsymbol{+}$ Defender's **Target Signature**.
 2.  **Defense Evasion:** Defender rolls **1D6** $\boldsymbol{+}$ Defender's **Speed** value.
 
 | Verdict | Condition | Damage Multiplier |
