@@ -65,6 +65,17 @@ Modules are defined by both their resource cost (paid once during setup) and the
 
 The following attributes are *permanently* tied to the Module and inherited by the Action Cards: **Impact Timing** and **Accuracy Factor**.
 
+### 3.3: Module Structure & Fitting Requirements
+Modules are defined by both their resource cost (paid once during setup) and the permanent attributes they grant to their generated cards.
+
+| Module Attribute | Role | Requirement |
+| :--- | :--- | :--- |
+| **Credit Cost** | Cost to purchase and install the Module. | Paid once during the initial setup/fitting phase. |
+| **PG Cost** | Power Grid requirement. | Must be met by the ship's available PG storage. |
+| **CPU Cost** | Processing Unit requirement. | Must be met by the ship's available CPU capacity. |
+| **Inherent Damage Type** | Fixed or based on ammo damage type. | Used for **Fixed Damage Modules** (e.g., Laser) or taken from ammo token |
+| **Initial Ammo Supply** | Tokens included with purchase. | **Multi-Phase Modules** typically include only the base **1x Kinetic Token**. |
+
 ---
 
 ## 4. Game Setup
@@ -276,6 +287,21 @@ The Defending Ship takes a total of **5 Damage**, which is subtracted from its *
 This turn successfully demonstrated how the player must spend EP to manage their hand and how the simplified resistance rules are applied for fast, tactical damage resolution.
 
 
+
+### 6.3. Dynamic Munitions System (Multi-Phase Modules)
+
+This system governs weapons that can change their damage type, utilizing the **Active Ammo Token** mechanic.
+
+* **Active Ammo Token:** This token, placed on the Module Card, dictates the **Damage Type** used by all corresponding Action Cards played (e.g., "Controlled Shot").
+* **Hangar:** Used to store all purchased, available, but currently inactive Ammo Tokens.
+* **Depleted Pool:** Used to store tokens that have been cycled out.
+
+#### The "Munitions Swap" Action
+
+The **"Munitions Swap"** Action Card facilitates strategic change and triggers the depletion rule:
+
+1.  **Effect:** The player may select one token from their **Hangar** (if available) and move it to the Module's Active Ammo Slot.
+2.  **Depletion:** The token that was previously **Active** is immediately moved to the **Depleted Pool**.
 
 ---
 
