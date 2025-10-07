@@ -47,7 +47,7 @@ To simulate weapon cadence, certain slow or heavy modules generate **Filler Card
 
 * **Function:** A Filler Card has an EP cost (e.g., 5 EP) but a minimal or zero immediate effect (e.g., "Discard this card").
 * **Purpose:** Their primary role is to consume **EP** and occupy a space in the hand, forcing the player to spend a turn or resources to clear their hand to allow for a larger draw next turn.
-* **Reload Example:** A Filler Card like "Reload Missiles" might have a small effect, such as, "Cost: 10 EP. Effect: Place 1 Missile Munitions Token from your Hangar."
+* **Reload Example:** A Filler Card like "Reload Missiles" might have a small effect, such as, "Cost: 10 EP. Effect: Optional :Place 1 Missile Munitions Token from your Hangar to yor specific module."
 
 ### 3.3: Module Structure & Fitting Requirements
 
