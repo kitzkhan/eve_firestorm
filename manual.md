@@ -200,7 +200,7 @@ Tokens in the **Depleted Pool** are unavailable.
 
 ---
 
-## 7 Full Combat Turn Example: Applying New Rules
+## 7 Full Combat Turn Example
 
 This scenario simulates a complete **Action Phase** for Player 1, including hand management and a detailed attack resolution using the simplified mechanics.
 
