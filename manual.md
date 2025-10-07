@@ -4,6 +4,8 @@
 
 **Firestorm** is a competitive card game where each player customizes and equips a unique starship, using creativity to build strategies and tailored decks. The game offers a dynamic deck-building experience, where your choice of modules and deck composition determines your play style and the evolution of every battle.
 
+---
+
 ## 2. Game Components
 
 * **Module Cards**: Special cards that can be installed on the ship, defining the abilities and resources available to the player.
@@ -57,7 +59,6 @@ Modules are defined by both their resource cost (paid once during setup) and the
 | **Inherent Damage Type** | Fixed or standard damage type. | Used for **Fixed Damage Modules** (e.g., Laser). |
 | **Initial Ammo Supply** | Tokens included with purchase. | **Multi-Phase Modules** typically include only the base **1x Kinetic Token**. |
 
-
 ---
 
 ## 4. Game Setup
@@ -76,7 +77,6 @@ Before Deck Generation, players utilize a starting budget of **Credits** to cust
 1.  **Purchase Ship Template:** Pay the required Credit cost for the selected Ship Template.
 2.  **Purchase Modules:** Pay the required **Credit Cost** for all desired Modules. Installed Modules must satisfy the ship's **PG** and **CPU** limits.
 3.  **Purchase Optional Ammunition:** Players may purchase additional **Ammo Tokens** (Energy, Explosive, Disruptor) for any **Multi-Phase Modules** at a set Credit cost per token. Purchased tokens are stored in the **Hangar**.
-
 
 ---
 
