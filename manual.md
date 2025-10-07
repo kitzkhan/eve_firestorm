@@ -286,23 +286,6 @@ The Defending Ship takes a total of **5 Damage**, which is subtracted from its *
 ---
 This turn successfully demonstrated how the player must spend EP to manage their hand and how the simplified resistance rules are applied for fast, tactical damage resolution.
 
-
-
-### 6.3. Dynamic Munitions System (Multi-Phase Modules)
-
-This system governs weapons that can change their damage type, utilizing the **Active Ammo Token** mechanic.
-
-* **Active Ammo Token:** This token, placed on the Module Card, dictates the **Damage Type** used by all corresponding Action Cards played (e.g., "Controlled Shot").
-* **Hangar:** Used to store all purchased, available, but currently inactive Ammo Tokens.
-* **Depleted Pool:** Used to store tokens that have been cycled out.
-
-#### The "Munitions Swap" Action
-
-The **"Munitions Swap"** Action Card facilitates strategic change and triggers the depletion rule:
-
-1.  **Effect:** The player may select one token from their **Hangar** (if available) and move it to the Module's Active Ammo Slot.
-2.  **Depletion:** The token that was previously **Active** is immediately moved to the **Depleted Pool**.
-
 ---
 
 ## 8. Glossary
@@ -317,9 +300,7 @@ The **"Munitions Swap"** Action Card facilitates strategic change and triggers t
 
 * Define concrete examples of modules and the types of action cards they generate.
 * Create ship templates with unique slots and abilities.
-* Develop the expansion system.
-* Detail scoring and victory mechanics.
-* Add illustrations, gameplay examples, and scenario walkthroughs.
+* Add illustrations, gameplay examples
 * Playtest and balance modules and decks for diverse playstyles.
 
 ---
