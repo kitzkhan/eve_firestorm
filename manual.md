@@ -197,6 +197,7 @@ The **"Munitions Swap"** Action Card facilitates strategic change and triggers t
 2.  **Depletion:** The token that was previously **Active** is immediately moved to the **Depleted Pool**.
 
 Tokens in the **Depleted Pool** are unavailable.
+
 ---
 
 ## 7 Full Combat Turn Example: Applying New Rules
