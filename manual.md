@@ -212,6 +212,7 @@ This scenario simulates a complete **Action Phase** for Player 1, including hand
 * **Cards Played:** **Two** Weapons Cards ("Projectile Burst" and "Positioning Shot" - the filler card).
     * **"Projectile Burst" Card:** Damage Type: **Kinetic**. EP Cost: 3. Complexity Factor: 0  Damage Base: 4. Damage Dice: 1D6. Bonus Effect                                                             add +3DMG if Damage Dice Roll =6
 * **Module Accuracy Factor:** +3
+  
 **Defending Ship (Player 2): Hypothetical Frigate**
 * **Key Stats:** Speed: 1. Target Signature: -1.
 * **Defense:** Has **Armor (Plating)**, No Shields.
