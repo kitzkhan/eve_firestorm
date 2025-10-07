@@ -210,8 +210,8 @@ This scenario simulates a complete **Action Phase** for Player 1, including hand
 * **Key Stats:** Speed: 2. Target Signature: **-1** (Small Ship). Energy (EP) Remaining: 50.
 * **Modules Equipped:** 2 Weapons Bays, 1 Utility Rail, 1 Core System.
 * **Cards Played:** **Two** Weapons Cards ("Projectile Burst" and "Positioning Shot" - the filler card).
-    * **"Projectile Burst" Card:** Damage Type: **Kinetic**. EP Cost: 3. Accuracy Factor: +3. Damage Base: 4. Damage Dice: 1D6.
-
+    * **"Projectile Burst" Card:** Damage Type: **Kinetic**. EP Cost: 3. Complexity Factor: 0  Damage Base: 4. Damage Dice: 1D6.
+* **Module Accuracy Factor:** +3
 **Defending Ship (Player 2): Hypothetical Frigate**
 * **Key Stats:** Speed: 1. Target Signature: -1.
 * **Defense:** Has **Armor (Plating)**, No Shields.
@@ -222,7 +222,7 @@ This scenario simulates a complete **Action Phase** for Player 1, including hand
 
 Player 1 has activated their **Weapons Deck** and has drawn their maximum limit of $2 + 1 = 3$ cards. Player 1 chooses to play two cards (the maximum allowed by their 2 **Weapons Bays**).
 
-1.  **Action 1 (Filler Card):** Player 1 plays **"Positioning Shot"** (our new filler card from the slow weapon).
+1.  **Action 1 (Filler Card):** Player 1 plays **"Positioning Shot"** 
     * **Cost:** 3 EP. New EP: $50 - 3 = 47$ EP.
     * **Effect:** The card is placed in the **Graveyard**, successfully clearing a hand slot for the next turn's draw.
 
