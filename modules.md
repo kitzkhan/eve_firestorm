@@ -1,7 +1,5 @@
 # Weapon Modules
 
---
-
 ## MX-1 Modular Cannon (Small Ship Weapon)
 
 This compact, efficient, and flexible cannon system is designed for small, fast ships, balancing rate of fire with multi-munition capability.
