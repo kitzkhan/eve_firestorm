@@ -27,8 +27,6 @@ This is the standard attack card. It applies the **Complexity Factor** (positive
 | **Damage Type** | **Active Ammo Type** | Inherited from the Token on the Module. |
 | **Effect** | Execute an attack. Deals damage based on the **Active Ammo Token** type. |
 
-**Complexity Factor Logic:** This factor is added directly to your Accuracy Check  roll. A hard-to-execute card (e.g., a precise shot) would have a negative factor (e.g., **-1**).
-
 ### B. MX-1 Payload Switch (2 Copies)
 
 This is the utility card that allows the player to tactically change the active munition, with an optional check to prevent unnecessary card usage.
@@ -38,6 +36,13 @@ This is the utility card that allows the player to tactically change the active 
 | **EP Cost** | 2 EP | |
 | **Impact Timing** | N/A | |
 | **Effect** | **Optional Payload Switch:** You may choose to swap the active munition type **only if** you have at least one token available in your **Hangar**. If you choose to swap: Select one token from your **Hangar** and make it the **Active Ammo Token**. Move the token that was previously **Active** to the **Depleted Pool**. |
+
+### BLUEPRINTS
+| Numele Cărții | Cost EP | Complexity Factor | Damage (Base + Dice) | Textul Regulamentar (Effect) |
+| :--- | :--- | :--- | :--- | :--- |
+| **MX-1 Impact Round** (4x) | **3 EP** | **+1** | **4 + 1D6** | Apply **Active Ammo Type** Damage. |
+| **MX-1 Payload Switch** (2x) | **2 EP** | N/A | N/A | **Optional Payload Switch:** You may choose to swap the active munition type **only if** you have at least one token available in your **Hangar**. If you choose to swap: Select one token from your **Hangar** and make it the **Active Ammo Token**. Move the token that was previously **Active** to the **Depleted Pool**. |
+
 
 ## M-3 Micro-Barrage Launcher (Small Ship Weapon)
 
@@ -78,3 +83,12 @@ This compact Coilgun System is scaled for Frigates, focusing its resources on la
 | **EP Cost** | 3 EP | |
 | **Complexity Factor** | N/A | |
 | **Effect** | **Preparation:** The next **Attack Action Card** played from **this Module** gains $\mathbf{+1}$ to its **Damage Base** value. Place this card in the Graveyard. |
+
+### BLUEPRINTS
+| Numele Cărții | Cost EP | Complexity Factor | Damage (Base + Dice) | Textul Regulamentar (Effect) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Heavy Warhead** (2x) | **5 EP** | **-1** | **8 + 2D6** | Apply **Explosive** Damage. Damage is resolved **NEXT TURN**. |
+| **Targeting Protocol** (2x) | **2 EP** | N/A | N/A | Place a **+2 Complexity Factor Token** on your Ship Template. The next attack action card played from this module consumes the token and gains its effect. |
+| **M-3 Slug Stabilization** (2x) | **3 EP** | N/A | N/A | **Preparation:** The next **Attack Action Card** played from **this Module** gains $\mathbf{+1}$ to its **Damage Base** value. Place this card in the Graveyard. |
+
+
