@@ -259,6 +259,8 @@ Player 1 has activated their **Weapons Deck** and has drawn their maximum limit 
 | **Target Signature Modifier** | -1 (P2's Target Signature) | 0 (N/A) |
 | **Final Score** | $4 + 3 + (-1) = \mathbf{6}$ | $5 + 1 = \mathbf{6}$ |
 
+**Complexity Factor Logic:** This factor is added directly to your Accuracy Check  roll. A hard-to-execute card (e.g., a precise shot) would have a negative factor (e.g., **-1**).
+
 * **Verdict:** Attack Score (6) $\boldsymbol{=}$ Evasion Score (6).
 * **Result:** **Glancing Hit**. Applies Damage Multiplier $\times 0.5$ (**Round Down**).
 
