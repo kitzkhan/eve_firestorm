@@ -1,5 +1,13 @@
 # Weapon Modules
 
+| Zonă | Detaliu |
+| :--- | :--- |
+| **Culoare Carte** | Roșu (Weapons Deck) |
+| **Cost** | EP Cost (Mare, în colțul de sus/dreapta) |
+| **Zona de Statistică** | Damage Base, Damage Dice, Complexity Factor (unde este cazul) |
+| **Zona de Reguli** | Textul de **Effect** |
+
+
 ## MX-1 Modular Cannon (Small Ship Weapon)
 
 This compact, efficient, and flexible cannon system is designed for small, fast ships, balancing rate of fire with multi-munition capability.
