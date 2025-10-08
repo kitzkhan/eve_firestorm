@@ -1,4 +1,4 @@
-#Weapon Modules
+# Weapon Modules
 --
 ## MX-1 Modular Cannon (Small Ship Weapon)
 
