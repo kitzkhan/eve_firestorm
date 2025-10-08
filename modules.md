@@ -63,7 +63,7 @@ This compact Coilgun System is scaled for Frigates, focusing its resources on la
 | **Damage Dice** | **2D6** | |
 | **Effect** | Apply **Explosive** Damage. Damage is resolved **NEXT TURN**. |
 
-### B. Targeting Protocol (2 Copies) - Revizuit
+### B. Targeting Protocol (2 Copies)
 
 | Card Attribute | Value | Note |
 | :--- | :--- | :--- |
