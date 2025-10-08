@@ -39,7 +39,7 @@ This is the utility card that allows the player to tactically change the active 
 | **Impact Timing** | N/A | |
 | **Effect** | **Optional Payload Switch:** You may choose to swap the active munition type **only if** you have at least one token available in your **Hangar**. If you choose to swap: Select one token from your **Hangar** and make it the **Active Ammo Token**. Move the token that was previously **Active** to the **Depleted Pool**. |
 
-## M-3 Micro-Barrage Launcher
+## M-3 Micro-Barrage Launcher (Small Ship Weapon)
 
 This compact Coilgun System is scaled for Frigates, focusing its resources on launching heavy, reactive slugs. Its sustained high energy demand requires careful planning and execution.
 
