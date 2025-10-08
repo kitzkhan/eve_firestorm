@@ -38,3 +38,43 @@ This is the utility card that allows the player to tactically change the active 
 | **EP Cost** | 2 EP | |
 | **Impact Timing** | N/A | |
 | **Effect** | **Optional Payload Switch:** You may choose to swap the active munition type **only if** you have at least one token available in your **Hangar**. If you choose to swap: Select one token from your **Hangar** and make it the **Active Ammo Token**. Move the token that was previously **Active** to the **Depleted Pool**. |
+
+## M-3 Micro-Barrage Launcher
+
+This compact Coilgun System is scaled for Frigates, focusing its resources on launching heavy, reactive slugs. Its sustained high energy demand requires careful planning and execution.
+
+| Module Attribute | Value | Requirement/Note |
+| :--- | :--- | :--- |
+| **Credit Cost** | **1,800 Credits** | |
+| **Slot Type** | **Weapons Bay** | |
+| **PG Cost / CPU Cost** | $\mathbf{12} / \mathbf{8}$ | |
+| **Inherent Impact Timing** | **NEXT TURN** | |
+| **Inherent Accuracy Factor** | $\mathbf{+1}$ | |
+| **Damage Type** | **EXPLOSIVE** | (Fixed damage type) |
+| **Card Generation** | **2x Heavy Warhead, 2x Targeting Protocol, 2x M-3 Slug Stabilization** | |
+
+### A. Heavy Warhead (2 Copies)
+
+| Card Attribute | Value | Note |
+| :--- | :--- | :--- |
+| **EP Cost** | 5 EP | |
+| **Complexity Factor** | **-1** | Applied to the **Attack Score**. |
+| **Damage Base** | 8 | |
+| **Damage Dice** | **2D6** | |
+| **Effect** | Apply **Explosive** Damage. Damage is resolved **NEXT TURN**. |
+
+### B. Targeting Protocol (2 Copies) - Revizuit
+
+| Card Attribute | Value | Note |
+| :--- | :--- | :--- |
+| **EP Cost** | 2 EP | |
+| **Complexity Factor** | N/A | |
+| **Effect** | Place a **+2 Complexity Factor Token** on your Ship Template. The next attack action card played from this module consumes the token and gains its effect. |
+
+### C. M-3 Slug Stabilization (2 Copies)
+
+| Card Attribute | Value | Note |
+| :--- | :--- | :--- |
+| **EP Cost** | 3 EP | |
+| **Complexity Factor** | N/A | |
+| **Effect** | **Preparation:** The next **Attack Action Card** played from **this Module** gains $\mathbf{+1}$ to its **Damage Base** value. Place this card in the Graveyard. |
