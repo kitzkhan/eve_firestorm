@@ -255,7 +255,7 @@ Player 1 has activated their **Weapons Deck** and has drawn their maximum limit 
 | Calculation | Attacker (P1) | Defender (P2) |
 | :--- | :--- | :--- |
 | **1D6 Roll** | Rolls **4** | Rolls **5** |
-| **Accuracy / Speed Modifiers** | +3 (Accuracy Factor) | +1 (P2 Speed) |
+| **Accuracy / Speed Modifiers / Complexity Factor** | +3 (Accuracy Factor) | +1 (P2 Speed) |
 | **Target Signature Modifier** | -1 (P2's Target Signature) | 0 (N/A) |
 | **Final Score** | $4 + 3 + (-1) = \mathbf{6}$ | $5 + 1 = \mathbf{6}$ |
 
